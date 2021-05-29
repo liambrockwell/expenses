@@ -1,0 +1,139 @@
+body {
+  background-color: #0b090a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  margin: 1rem;
+  color: #f5f3f4;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 300;
+}
+h2 {
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 300;
+  color: #f5f3f4;
+  margin-bottom: 2rem;
+}
+
+form {
+  width: 70%;
+  color: white;
+  background-color: #25272c;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 1rem;
+}
+
+.allInputs {
+  border: none;
+  border-bottom: 1px solid #1db954;
+  color: #f5f3f4;
+  margin-top: 1rem;
+  background: none;
+}
+
+.allInputs:focus {
+  outline: none;
+}
+
+.username {
+  width: 70%;
+}
+
+input[type="date"],
+input[type="number"] {
+  width: 40%;
+  margin-right: 0.4rem;
+}
+
+.formDiv {
+  margin-top: 0.5rem;
+  width: 100%;
+
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+}
+
+label {
+  margin-right: 0.4rem;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.8rem;
+}
+
+#addBtn {
+  cursor: pointer;
+  margin-top: 1rem;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 10px;
+  background-color: #1db954;
+  transition: all 0.5s;
+}
+
+#addBtn:hover {
+  background-color: #f7b32b;
+  transform: scale(1.05);
+}
+
+.removeBtn {
+  cursor: pointer;
+  background: none;
+  color: #f5f3f4;
+  font-family: "Karla", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  border: none;
+  border-radius: 50%;
+  margin-top: 0.4rem;
+  margin-right: 0.2rem;
+  transition: all 0.3s;
+}
+
+.removeBtn:hover {
+  color: #c71a1a;
+  transform: scale(1.4);
+}
+
+.delete {
+  display: none;
+}
+
+table {
+  margin-top: 1rem;
+  width: 76%;
+  background-color: #161a1d;
+  border-collapse: collapse;
+  border-radius: 5px;
+}
+
+th {
+  padding: 1rem 0.5rem;
+  color: #f5f3f4;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+td {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  color: #f5f3f4;
+  background-color: #161a1d;
+  padding: 0.5rem;
+  border-radius: 1px;
+}
+
+td:nth-child(2) {
+  background-color: #1a2023;
+}
+
+th:nth-child(2) {
+  background-color: #1a2023;
+}
